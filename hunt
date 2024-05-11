@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# A script that simplify long git processess to push to a remote to your default branch
+read -rp "enter your commit message : " commit
+git add --all .
+git commit -m "$commit"
+git push
